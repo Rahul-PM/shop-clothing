@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './collections-overview.styles.scss';
+
 import CollectionPreview from '../collection-preview/collection-preview.component';
 import { selectCollectionsForPreview } from '../../redux/shop/shop.selector';
 import { connect } from 'react-redux';
